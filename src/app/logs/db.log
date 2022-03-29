@@ -1,0 +1,6 @@
+[2022-03-29T03:48:43+00:00][info] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-29T03:48:43+00:00][info] DESCRIBE `users`
+[2022-03-29T03:48:43+00:00][info] SELECT `users`.`user_id`, `users`.`username`, `users`.`email`, `users`.`password` FROM `users`
+[2022-03-29T03:48:43+00:00][info] SELECT IF(COUNT(*) > 0, 1, 0) FROM `INFORMATION_SCHEMA`.`TABLES` WHERE `TABLE_NAME` = 'users' AND `TABLE_SCHEMA` = DATABASE()
+[2022-03-29T03:48:43+00:00][info] DESCRIBE `users`
+[2022-03-29T03:48:43+00:00][info] SELECT `users`.`user_id`, `users`.`username`, `users`.`email`, `users`.`password` FROM `users`
